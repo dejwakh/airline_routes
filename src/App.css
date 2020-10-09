@@ -1,0 +1,72 @@
+body {
+  overflow-y: scroll;
+}
+
+.header {
+  background-color: #222;
+  height: 4rem;
+  padding: 2rem;
+  color: white;
+  text-align: center;
+}
+
+.title {
+  font-size: 1.5em;
+}
+
+section {
+  text-align: center;
+}
+
+table.routes-table {
+  border-collapse: collapse;
+  margin: 0 auto;
+  width: 90%;
+}
+
+.routes-table th,
+.routes-table td {
+  text-align: left;
+}
+
+.routes-table td {
+  padding: .25rem;
+  border: none;
+}
+
+.routes-table tr:nth-of-type(2n) td {
+  background-color: #eee;
+}
+
+select {
+  margin: 0 .5em;
+}
+
+.map {
+  width: 90%;
+}
+
+.pagination a {
+  margin: 0 .5em;
+}
+
+svg circle:hover {
+  cursor: crosshair;
+}
+
+svg path {
+  stroke: white;
+  stroke-width: 0.2;
+}
+
+svg circle.destination {
+  stroke: red;
+  stroke-width: .3;
+  fill: transparent;
+  r: 0.8;
+}
+
+svg circle.source {
+  fill: lightgreen;
+  r: 0.5;
+}
