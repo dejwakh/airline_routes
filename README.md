@@ -14,3 +14,7 @@ https://airline-routes-vahid.herokuapp.com/
 1. Run `npm install`
 2. Run `npm start`
 3. Go to http://localhost:3000/
+
+## Additional Notes
+1. Data comes from a static file and limited to only 50 routes per airline
+2. SVGs used to draw airport coordinates and route lines
