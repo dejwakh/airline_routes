@@ -3,9 +3,9 @@ body {
 }
 
 .header {
-  background-color: #222;
-  height: 4rem;
-  padding: 2rem;
+  background-color: rgb(4, 67, 104);
+  height: 2rem;
+  padding: 1rem;
   color: white;
   text-align: center;
 }
@@ -17,6 +17,7 @@ body {
 section {
   text-align: center;
 }
+
 
 table.routes-table {
   border-collapse: collapse;
@@ -44,9 +45,12 @@ select {
 
 .map {
   width: 90%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.pagination a {
+.pagination button {
   margin: 0 .5em;
 }
 
@@ -59,14 +63,27 @@ svg path {
   stroke-width: 0.2;
 }
 
+svg circle.source {
+  fill: lightgreen;
+  r: 0.8;
+}
+
 svg circle.destination {
   stroke: red;
   stroke-width: .3;
   fill: transparent;
-  r: 0.8;
+  r: 0.9;
 }
 
-svg circle.source {
-  fill: lightgreen;
-  r: 0.5;
+svg g.legend circle {
+  r: 1.5;
+}
+
+svg g.legend text {
+  font-size: .3em;
+}
+
+svg g.legend text.title {
+  font-size: .4em;
+  font-weight: bold
 }
