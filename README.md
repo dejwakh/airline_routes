@@ -9,5 +9,5 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## How to run in development mode
 1. Run `npm install`
-2. Run `yarn start`
+2. Run `npm start`
 3. Go to [http://localhost:3000/](http://localhost:3000/)
