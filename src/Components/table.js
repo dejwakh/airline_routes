@@ -1,7 +1,7 @@
 import React from 'react';
 import Route from './route'
 
-const Table = ({ className, columns, rows, formatValue }) => {
+const Table = ({ className, columns, rows }) => {
 
   return (
     <table className={className}>

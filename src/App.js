@@ -122,10 +122,6 @@ const App = ({ perPage }) => {
     }))
   }
 
-  function formatValue(property, value) {
-    // return a string 
-  }
-
    function previousPage(event) {
     let {start, end, previousActive, nextActive, perPage} = current
     let rowsToRemove = perPage
@@ -216,7 +212,6 @@ const App = ({ perPage }) => {
         className="routes-table" 
         rows={showRoutes()} 
         columns={columns} 
-        format={formatValue} 
       />
     </section>
     <section className="pagination">
