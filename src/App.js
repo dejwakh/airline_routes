@@ -174,7 +174,7 @@ const App = ({ perPage }) => {
   }
 
   function sortByName(arr){
-    return arr.sort((a,b) => a.name < b.name)
+    return arr.sort((a,b) => a.name < b.name ? -1 : 1)
   }
 
   return (
