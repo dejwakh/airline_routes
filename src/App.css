@@ -75,15 +75,15 @@ svg circle.destination {
   r: 0.9;
 }
 
-svg g.legend circle {
+svg .legend circle {
   r: 1.5;
 }
 
-svg g.legend text {
+svg .legend text {
   font-size: .3em;
 }
 
-svg g.legend text.title {
+svg .legend text.title {
   font-size: .4em;
   font-weight: bold
 }

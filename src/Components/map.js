@@ -26,6 +26,12 @@ const Map = ({ routes, setAirport }) => (
         )
       })}        
     </g>
+
+    <a className="legend" href="https://github.com/dejwakh/airline_routes">
+      <image x={-118} y={77} href="GitHub-logo.png" alt="Github logo" height="10px" width="10px"/>
+      <text x={-106} y={84}>See source code</text>
+    </a>
+
     <g className="legend">
       <text className="title" x={96} y={74}>Legend</text>
       <circle className="source" cx={100} cy={78}>
