@@ -1,6 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-![](screenshot.png)
+[![](screenshot.png)](https://airline-routes-vahid.herokuapp.com/)
 
 ## What is it?
 1. A React-based toy app to see airline routes across major airlines and airports
