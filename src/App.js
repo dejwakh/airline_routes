@@ -105,10 +105,15 @@ const App = ({ perPage }) => {
 
   function setAirportFromSVG(event) {
     const newCode= event.target.getAttribute('code')
-    const activeRoutes = routes.filter(r => r.codes.includes(newCode))
+    let activeRoutes = routes.filter(r => r.codes.includes(newCode))
     const airlines = data.airlines.filter(a => 
       activeRoutes.some(r => r.airline.id === a.id)
     )
+    const curId = current.selectedAirlineId
+    if (curId) {
+      const withPreviousAirline = activeRoutes.filter(r => r.airline.id === curId)
+      if (withPreviousAirline.length) activeRoutes = withPreviousAirline
+    }
     const nextActive = activeRoutes.length > current.perPage
     setCurrent(prevState => ({
       ...prevState,
