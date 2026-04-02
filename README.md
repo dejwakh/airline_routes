@@ -8,7 +8,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 3. Click on an Airport on the world map to also filter by airport
 
 ## Check out the app in production mode
-https://airline-routes-vahid.herokuapp.com/
+https://dejwakh.github.io/airline_routes/
 
 ## How to run in development mode
 1. Run `npm install`
